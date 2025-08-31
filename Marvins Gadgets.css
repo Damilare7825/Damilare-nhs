@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MARVINS{
+    padding: 5px;
+    margin: 3px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    align-items: center;
+    background-image: url(g.jpeg);
+}
+.btn{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background-color: skyblue ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.product-details{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.product-container{
+    display: flex;
+    align-items: center;
+}
+.sponsors{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+    filter: grayscale(100%);
+}
+.sponsors:hover{
+    filter: grayscale(0);
+}
+.footer{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.copyright{
+    text-align: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.image{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.footer5{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+
+}
+h1{
+    padding: 5px;
+    margin: 5px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 5px;
+}
+.CONSOLE{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    margin-bottom: 5px;
+    transition: transform 0.5s;
+  
+}
+.CONSOLE:hover{
+    transform:translateY(-5px);
+}
+
+.CONSOLE img{
+    max-width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+.SAMSUNG{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align:center;
+    max-width: 200px;
+    color: white;
+    transition: tranform 0.5s;
+}
+.SAMSUNG:hover{
+    transform: translateY(-5px);
+}
+
+.SAMSUNG img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+.IPHONE{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.IPHONE:hover{
+    transform: translateY(-5px);
+}
+.IPHONE img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+.SMARTTV{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.SMARTTV:hover{
+    transform: translateY(-5px);
+}
+
+.SMARTTV img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+.HOMEAPPLIANCES{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.HOMEAPPLIANCES:hover{
+    transform: translateY(-5px);
+}
+.HOMEAPPLIANCES img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+.LAPTOPS{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform  0.5s;
+}
+.LAPTOPS:hover{
+    transform: translateY(-5px);
+}
+.LAPTOPS img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+h2{
+    margin: 5px;
+    padding: 5px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: px;
+}
+.IPHONE16{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.IPHONE16:hover{
+    transform: translateY(-5px);
+}
+.IPHONE16 img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+.SAMSUNGS25{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.SAMSUNGS25:hover{
+    transform: translateY(-5px);
+}
+.SAMSUNGS25 img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+.PS5PRO{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.PS5PRO:hover{
+    transform: translateY(-5px);
+}
+.title{
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    line-height: 60px;
+}
+.title::after{
+    content: '';
+    background-color: skyblue;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.PS5PRO img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+h3{
+    padding: 5px;
+    margin: 5px;
+}
+section{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+     gap: px;
+     margin: 5px;
+}
+.REFRIGERATOR{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.REFRIGERATOR:hover{
+    transform: translateY(-5px);
+}
+.REFRIGERATOR img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}
+.WASHINGMACHINE{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    transition: transform 0.5s;
+}
+.WASHINGMACHINE:hover{
+    transform: translateY(-5px)
+}
+.WASHINGMACHINE img{
+    max-width: 190px;
+    height: 200px;
+    border-radius: 8px;
+}

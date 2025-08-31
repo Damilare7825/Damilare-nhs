@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(200px,1fr));
+    gap: 4px;
+    padding: 10px;
+    background-image: url(images\ \(14\).jpeg);
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.CONSOLE{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 1000px;
+    color: white;
+    margin-bottom: 5px;
+    transition: transform 0.5s;
+  
+}
+.CONSOLE:hover{
+    transform:translateY(-5px);
+}
+
+.CONSOLE img{
+    max-width: 100%;
+    height: 600px;
+    border-radius: 8px;
+}
+.SAMSUNG{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align:center;
+    max-width: 1000px;
+    color: white;
+    transition: tranform 0.5s;
+}
+.SAMSUNG:hover{
+    transform: translateY(-5px);
+}
+
+.SAMSUNG img{
+    max-width: 100%;
+    height: 1000px;
+    border-radius: 8px;
+}
+.IPHONE{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 1000px;
+    color: white;
+    transition: transform 0.5s;
+}
+.IPHONE:hover{
+    transform: translateY(-5px);
+}
+.IPHONE img{
+    max-width: 100%;
+    height: 600px;
+    border-radius: 8px;
+}
+.SMARTTV{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 1000px;
+    color: white;
+    transition: transform 0.5s;
+}
+.SMARTTV:hover{
+    transform: translateY(-5px);
+}
+
+.SMARTTV img{
+    max-width: 100%;
+    height: 1000px;
+    border-radius: 8px;
+}
+.HOMEAPPLIANCES{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 1000px;
+    color: white;
+    transition: transform 0.5s;
+}
+.HOMEAPPLIANCES:hover{
+    transform: translateY(-5px);
+}
+.HOMEAPPLIANCES img{
+    max-width: 100%;
+    height: 1000px;
+    border-radius: 8px;
+}
+.LAPTOPS{
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 1000px;
+    color: white;
+    transition: transform  0.5s;
+}
+.LAPTOPS:hover{
+    transform: translateY(-5px);
+}
+.LAPTOPS img{
+    max-width: 100%;
+    height: 1000;
+    border-radius: 8px;
+}
